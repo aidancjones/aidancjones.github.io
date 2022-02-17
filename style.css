@@ -4,5 +4,8 @@ h2 {
   font-size: 48px;
 }
 
-body {
-  background-color: lightblue;
+#home-bkg {
+  background-image: url('img/misty.png');
+  background-attachment: fixed;
+  background-size: cover;
+  }
