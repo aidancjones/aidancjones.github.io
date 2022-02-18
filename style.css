@@ -1,15 +1,23 @@
+#home-bkg {
+  background-image: url('img/misty.png');
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
 h2 {
-  text-align: center;
+background-color: inherit;
+  text-align: left;
   font-style:normal;
   font-size: 48px;
   font-family: campton, sans-serif;
-  color: #909090;
-  line-height: .3;
-  filter: drop-shadow(1px 1px 2px black) opacity(70%);
+  color: #44344f;
+  line-height: 10px;
+  opacity: 80%;
 }
 
 h3 {
-  text-align: center;
+background-color: inherit;
+  text-align: left;
   font-style:normal;
   font-size: 24px;
   font-family: campton, sans-serif;
@@ -18,6 +26,7 @@ h3 {
 }
 
 #home-paragraph {
+background-color: inherit;
   margin: 10px;
   padding: 10px;
   text-align: left;
@@ -25,11 +34,29 @@ h3 {
   color: white
 }
 
+#home-paragraph-2 {
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  font-family: campton, sans-serif;
+  background-color: inherit;
+  color: white
+}
+
 #home-paragraph-link {
   margin: 10px;
   padding: 10px;
   line-height: 15px;
-  text-align: center;
+  text-align: left;
+  font-family: campton, sans-serif;
+  text-decoration: underline;
+}
+
+#home-paragraph-link-2 {
+  margin: 10px;
+  padding: 10px;
+  line-height: 15px;
+  text-align: left;
   font-family: campton, sans-serif;
   text-decoration: underline;
 }
@@ -39,32 +66,87 @@ ul {
   font-family: campton, sans-serif;
   margin: 10px;
   padding: 10px;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 a:link {
   text-decoration: none;
   color: white;
+  background-color: inherit;
   font-size: 18px;
 }
 
 a:visited {
   text-decoration: none;
   color:purple;
+  background-color: inherit;
 }
 
 a:hover {
   text-decoration: none;
   color: black;
+  background-color: inherit;
 }
 
 a:active {
   text-decoration: none;
   color: black;
+  background-color: inherit;
 }
 
-#home-bkg {
-  background-image: url('img/misty.png');
-  background-attachment: fixed;
-  background-size: cover;
-  }
+#button-style-1 {
+  background-color: #44344f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: campton, sans-serif;
+}
+
+#button-style-2 {
+  background-color: #44344f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: campton, sans-serif;
+}
+
+#button-style-3 {
+  background-color: #44344f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: campton, sans-serif;
+}
+
+td, tr, table {
+  padding: 5px;
+}
+
+hr {
+  border-style: solid;
+  color: #44344f;
+  border-width: 1px;
+  background-color: inherit;
+
+
+
+
+}
