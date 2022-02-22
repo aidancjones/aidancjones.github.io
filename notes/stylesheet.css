@@ -1,0 +1,53 @@
+body {
+  background-color: lightblue;
+}
+
+p {
+  color:navy;
+  font-size:100%;
+  background-color: green;
+  padding: 10px 20px 5px 40px;
+  margin: 20px 10px 20px 10px;
+  border: 3px dotted orange;
+  width: 150px;
+  height: 200px;
+}
+
+.wrapper {
+  display: flex;
+  background-color: red;
+}
+
+.wrapper > div {
+  display: flex;
+  background-color: red;
+
+p::first-letter{
+  font-size: 150%;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 48px;
+}
+
+#test-id-1 {
+  color:purple;
+}
+
+.test-class {
+  text-shadow: 2px 5px green;
+}
+
+a:hover {
+  color: white;
+}
+a:default {
+  color: orange;
+}
+
+span {
+background-color: red;
+padding: 5px 5px 5px 5px;
+}
