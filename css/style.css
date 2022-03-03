@@ -145,8 +145,53 @@ hr {
   color: #44344f;
   border-width: 1px;
   background-color: inherit;
+}
 
+@media screen and (max-width: 400px) {
+  .container {
+    display: grid;
+    padding: 5px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .header {
+    background-color: orange;
+    display: grid;
+    padding: 10px;
+    grid-template-rows: 1fr 1fr 1fr
+  }
+  .assignments {
+    background-color: blue;
+    display: grid;
+    padding: 10px;
+  }
+  .social {
+    background-color: purple;
+    display: grid;
+    padding: 10px;
+    }
+}
 
-
-
+@media screen and (min-width: 401px) {
+  .container {
+    display: grid;
+    padding: 10px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .header {
+    background-color: orange;
+    display: grid;
+    padding: 10px;
+    grid-template-rows: 1fr 1fr 1fr
+  }
+  .assignments {
+      display: grid;
+      padding: 10px;
+  }
+  .social {
+    display: grid;
+    padding: 10px;
+    }
 }
