@@ -1,197 +1,349 @@
-#home-bkg {
-  background-image: url('../img/misty.png');
-  background-attachment: fixed;
-  background-size: cover;
-  }
-
-h2 {
-background-color: inherit;
-  text-align: left;
-  font-style:normal;
-  font-size: 48px;
-  font-family: campton, sans-serif;
-  color: #44344f;
-  line-height: 10px;
-  opacity: 80%;
-}
-
-h3 {
-background-color: inherit;
-  text-align: left;
-  font-style:normal;
-  font-size: 24px;
-  font-family: campton, sans-serif;
-  color: white;
-  line-height: .3;
-}
-
-#home-paragraph {
-background-color: inherit;
-  margin: 10px;
-  padding: 10px;
-  text-align: left;
-  font-family: campton, sans-serif;
-  color: white
-}
-
-#home-paragraph-2 {
-  margin: 10px;
-  padding: 10px;
-  text-align: left;
-  font-family: campton, sans-serif;
-  background-color: inherit;
-  color: white
-}
-
-#home-paragraph-link {
-  margin: 10px;
-  padding: 10px;
-  line-height: 15px;
-  text-align: left;
-  font-family: campton, sans-serif;
-  text-decoration: underline;
-}
-
-#home-paragraph-link-2 {
-  margin: 10px;
-  padding: 10px;
-  line-height: 15px;
-  text-align: left;
-  font-family: campton, sans-serif;
-  text-decoration: underline;
-}
-
-ul {
-  list-style-type: none;
-  font-family: campton, sans-serif;
-  margin: 10px;
-  padding: 10px;
-  line-height: 40px;
-}
-
-a:link {
-  text-decoration: none;
-  color: white;
-  background-color: inherit;
-  font-size: 18px;
-}
-
-a:visited {
-  text-decoration: none;
-  color:purple;
-  background-color: inherit;
-}
-
-a:hover {
-  text-decoration: none;
-  color: black;
-  background-color: inherit;
-}
-
-a:active {
-  text-decoration: none;
-  color: black;
-  background-color: inherit;
-}
-
-#button-style-1 {
-  background-color: #44344f;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-family: campton, sans-serif;
-}
-
-#button-style-2 {
-  background-color: #44344f;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-family: campton, sans-serif;
-}
-
-#button-style-3 {
-  background-color: #44344f;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-family: campton, sans-serif;
-}
-
-td, tr, table {
-  padding: 5px;
-}
-
-hr {
-  border-style: solid;
-  color: #44344f;
-  border-width: 1px;
-  background-color: inherit;
-}
-
-@media screen and (max-width: 400px) {
-  .container {
-    display: grid;
-    padding: 5px;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-  }
-  .header {
-    background-color: orange;
-    display: grid;
-    padding: 10px;
-    grid-template-rows: 1fr 1fr 1fr
-  }
-  .assignments {
-    background-color: blue;
-    display: grid;
-    padding: 10px;
-  }
-  .social {
-    background-color: purple;
-    display: grid;
-    padding: 10px;
-    }
-}
-
 @media screen and (min-width: 401px) {
-  .container {
-    display: grid;
-    padding: 10px;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  .header {
-    background-color: orange;
-    display: grid;
-    padding: 10px;
-    grid-template-rows: 1fr 1fr 1fr
-  }
-  .assignments {
-      display: grid;
-      padding: 10px;
-  }
-  .social {
-    display: grid;
-    padding: 10px;
+  #home-bkg {
+    background-image: url('../img/misty.png');
+    background-attachment: fixed;
+    background-size: cover;
     }
+
+  h2 {
+  background-color: inherit;
+    text-align: left;
+    font-style:normal;
+    font-size: 48px;
+    font-family: campton, sans-serif;
+    color: #44344f;
+    line-height: 10px;
+    opacity: 80%;
+  }
+
+  h3 {
+  background-color: inherit;
+    text-align: left;
+    font-style:normal;
+    font-size: 24px;
+    font-family: campton, sans-serif;
+    color: white;
+    line-height: .3;
+  }
+
+  #home-paragraph {
+  background-color: inherit;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-family: campton, sans-serif;
+    color: white
+  }
+
+  #home-paragraph-2 {
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-family: campton, sans-serif;
+    background-color: inherit;
+    color: white
+  }
+
+  #home-paragraph-link {
+    margin: 10px;
+    padding: 10px;
+    line-height: 15px;
+    text-align: left;
+    font-family: campton, sans-serif;
+    text-decoration: underline;
+  }
+
+  #home-paragraph-link-2 {
+    margin: 10px;
+    padding: 10px;
+    line-height: 15px;
+    text-align: left;
+    font-family: campton, sans-serif;
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: campton, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    line-height: 40px;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: white;
+    background-color: inherit;
+    font-size: 18px;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color:purple;
+    background-color: inherit;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: inherit;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: black;
+    background-color: inherit;
+  }
+
+  #button-style-1 {
+    background-color: #44344f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: campton, sans-serif;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #button-style-2 {
+    background-color: #44344f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: campton, sans-serif;
+  }
+
+  #button-style-3 {
+    background-color: #44344f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: campton, sans-serif;
+  }
+
+  td, tr, table {
+    padding: 5px;
+  }
+
+  hr {
+    border-style: solid;
+    color: #44344f;
+    border-width: 1px;
+    background-color: inherit;
+  }
+
+  .flexbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #44344f;
+    justify-content: center;
+  }
+
+  .flexbox-item-1 {
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flexbox-item-2 {
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flexbox-item-3 {
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+}
+
+@media screen and (max-width: 401px) {
+  #home-bkg {
+    background-image: url('../img/misty.png');
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+  h2 {
+  background-color: inherit;
+    text-align: center;
+    font-style: normal;
+    font-size: 36px;
+    font-family: campton, sans-serif;
+    color: #44344f;
+    line-height: 10px;
+    opacity: 80%;
+  }
+
+  h3 {
+  background-color: inherit;
+    text-align: center;
+    font-style:normal;
+    font-size: 18px;
+    font-family: campton, sans-serif;
+    color: white;
+    line-height: .3;
+  }
+
+  #home-paragraph {
+  background-color: inherit;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: campton, sans-serif;
+    color: white;
+    font-size: 14px;
+  }
+
+  #home-paragraph-2 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: campton, sans-serif;
+    background-color: inherit;
+    color: white;
+    font-size: 14px;
+  }
+
+  #home-paragraph-link {
+    margin: 10px;
+    padding: 10px;
+    line-height: 15px;
+    text-align: center;
+    font-family: campton, sans-serif;
+    text-decoration: underline;
+    font-size:
+  }
+
+  #home-paragraph-link-2 {
+    margin: 10px;
+    padding: 10px;
+    line-height: 15px;
+    text-align: center;
+    font-family: campton, sans-serif;
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: campton, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: white;
+    background-color: inherit;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color:purple;
+    background-color: inherit;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: inherit;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: black;
+    background-color: inherit;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #button-style-1 {
+    background-color: #44344f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: campton, sans-serif;
+    align-items: center;
+  }
+
+  #button-style-2 {
+    background-color: #44344f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: campton, sans-serif;
+  }
+
+  #button-style-3 {
+    background-color: #44344f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: campton, sans-serif;
+  }
+
+  td, tr, table {
+    padding: 5px;
+  }
+
+  hr {
+    border-style: solid;
+    color: #44344f;
+    border-width: 2px;
+    background-color: inherit;
+  }
 }
