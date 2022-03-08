@@ -188,27 +188,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100px;
   }
 
   .flexbox-img {
     width: 200px;
     margin: 10px;
+    padding: 10px;
     border: 3px solid #44344f;
   }
 
   .flexbox-img-1 {
-    min-height: 500px;
+    min-height: 100px;
     align-items: center;
   }
 
   .flexbox-img-2 {
-    min-height: 500x;
+    min-height: 100px;
     align-items: center;
     justify-content: center;
   }
 
   .flexbox-img-3 {
-    min-height: 50px;
+    min-height: 100px;
     align-items: center;
     justify-content: center;
   }
