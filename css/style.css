@@ -187,6 +187,7 @@
       width: 300%;
     }
 
+
     to {
       margin-left: 0%;
       width: 100%;
@@ -197,6 +198,7 @@
   .slide-in {
     animation-duration: 4s;
     animation-name: slidein;
+    animation-iteration-count:
   }
 
 }
