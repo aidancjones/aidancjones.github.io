@@ -157,51 +157,91 @@
   }
 
   .flexbox-item {
-    width: 200px;
+    width: 150px;
     margin: 10px;
-    border: 3px solid #44344f;
-    justify-content: center;
+    /*border: 3px solid #44344f;
+    */
   }
 
   .flexbox-item-1 {
-    min-height: 100px;
+    min-height: 50px;
     align-items: center;
-    justify-content: center;
   }
 
   .flexbox-item-2 {
-    min-height: 100px;
+    min-height: 50px;
     align-items: center;
     justify-content: center;
   }
 
   .flexbox-item-3 {
-    min-height: 100px;
+    min-height: 50px;
     align-items: center;
     justify-content: center;
   }
 
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-
+  .center {
+    text-align: center;
   }
 
-  .slide-in {
-    animation-duration: 4s;
-    animation-name: slidein;
-    animation-iteration-count:
+  .flexbox-container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  .flexbox-img {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #44344f;
+  }
+
+  .flexbox-img-1 {
+    min-height: 500px;
+    align-items: center;
+  }
+
+  .flexbox-img-2 {
+    min-height: 500x;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flexbox-img-3 {
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .center-img {
+    text-align: center;
+  }
+
+  .ulnavbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    overflow: hidden;
+  }
+
+  .linavbar {
+    display: inline;
+    padding: 20px;
+  }
+
 
 }
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 401px) {
   #home-bkg {
@@ -365,4 +405,43 @@
     border-width: 2px;
     background-color: inherit;
   }
+
+}
+
+.flexbox-container {
+  display: flexend;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-item {
+  width: 150px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  /*border: 3px solid #44344f;
+  */
+}
+
+.flexbox-item-1 {
+  min-height: 50px;
+  align-items: center;
+}
+
+.flexbox-item-2 {
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.flexbox-item-3 {
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
 }
