@@ -184,40 +184,6 @@
     text-align: center;
   }
 
-  .flexbox-container-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1080px;
-    border: 2px solid #44344f;
-
-  }
-
-  .flexbox-img {
-    width: 360px;
-    height: 360px;
-    margin: 10px;
-    padding: 10px;
-  }
-
-  .flexbox-img-1 {
-    align-items: center;
-  }
-
-  .flexbox-img-2 {
-    align-items: center;
-    justify-content: center;
-  }
-
-  .flexbox-img-3 {
-    align-items: center;
-    justify-content: center;
-  }
-
-  .center-img {
-    text-align: center;
-  }
-
   .ulnavbar {
     list-style-type: none;
     margin: 0;
@@ -231,6 +197,22 @@
     padding: 20px;
   }
 
+  .image-grid {
+  display: flex;
+  width 90%;
+  margin 10 auto;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+
+  .grid-image {
+    display: block;
+    width: 300px;
+    margin: 10px;
+    align-items: center;
+
+
+  }
 
 }
 
