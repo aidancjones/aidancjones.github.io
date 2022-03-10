@@ -27,7 +27,7 @@
   }
 
   #home-paragraph {
-  background-color: inherit;
+    background-color: inherit;
     margin: 10px;
     padding: 10px;
     text-align: left;
@@ -79,7 +79,7 @@
 
   a:visited {
     text-decoration: none;
-    color:purple;
+    color: #44344f;
     background-color: inherit;
   }
 
@@ -91,7 +91,7 @@
 
   a:active {
     text-decoration: none;
-    color: black;
+    color: white;
     background-color: inherit;
   }
 
@@ -165,23 +165,14 @@
 
   .flexbox-item-1 {
     min-height: 50px;
-    align-items: center;
   }
 
   .flexbox-item-2 {
     min-height: 50px;
-    align-items: center;
-    justify-content: center;
   }
 
   .flexbox-item-3 {
     min-height: 50px;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .center {
-    text-align: center;
   }
 
   .ulnavbar {
@@ -199,24 +190,59 @@
 
   .image-grid {
   display: flex;
-  width 90%;
-  margin 10 auto;
+  width: 100%;
+  margin: 0 auto;
   flex-wrap: wrap;
   flex-basis: 100%;
+  justify-content: center;
 }
 
   .grid-image {
     display: block;
-    width: 300px;
-    margin: 10px;
+    width: 500px;
+    margin: 15px;
     align-items: center;
-
-
   }
 
+  .center-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .design-grid {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center;
+    }
+
+  .grid-design {
+    display: block;
+    width: 500px;
+    margin: 30px;
+    align-items: center;
+    }
+
+  .aboutme-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .aboutme-container p {
+      text-align: right;
+      }
+
+    .aboutme-item {
+      width: 300px;
+      margin: 10px;
+      align-items: flex-end;
+      }
+
 }
-
-
 
 
 
