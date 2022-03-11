@@ -13,7 +13,7 @@
     font-family: campton, sans-serif;
     color: #44344f;
     line-height: 10px;
-    opacity: 80%;
+    opacity: 90%;
   }
 
   h3 {
@@ -67,7 +67,7 @@
     font-family: campton, sans-serif;
     margin: 10px;
     padding: 10px;
-    line-height: 40px;
+    line-height: 30px;
   }
 
   a:link {
@@ -91,12 +91,13 @@
 
   a:active {
     text-decoration: none;
-    color: white;
+    color: #44344f;
     background-color: inherit;
   }
 
   #button-style-1 {
     background-color: #44344f;
+    opacity: 90%;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -113,6 +114,7 @@
 
   #button-style-2 {
     background-color: #44344f;
+    opacity: 90%;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -127,6 +129,7 @@
 
   #button-style-3 {
     background-color: #44344f;
+    opacity: 90%;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -148,6 +151,7 @@
     color: #44344f;
     border-width: 1px;
     background-color: inherit;
+    opacity: 90%;
   }
 
   .flexbox-container {
@@ -211,35 +215,47 @@
   }
 
   .design-grid {
+    object-fit: scale-down;
     display: flex;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
     flex-basis: 100%;
     justify-content: center;
+    align-content: center;
     }
 
   .grid-design {
+    object-fit: contain;
     display: block;
-    width: 500px;
-    margin: 30px;
+    width: 400px;
+    margin: 20px;
     align-items: center;
     }
 
   .aboutme-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+      display: flex;
+      flex-direction: row;
+      font-size: 30px;
+      text-align: center;
     }
 
-    .aboutme-container p {
-      text-align: right;
-      }
-
-    .aboutme-item {
-      width: 300px;
-      margin: 10px;
+    .aboutme-left {
+      padding: 10px;
+      flex: 50%;
       align-items: flex-end;
+    }
+
+    .aboutme-right {
+      padding: 10px;
+      flex: 50%;
+    }
+
+    .aboutme-image {
+      display: block;
+      width: 250px;
+      margin: 0px;
+      align-items: center;
       }
 
 }
