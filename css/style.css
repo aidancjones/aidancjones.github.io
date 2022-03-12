@@ -299,10 +299,6 @@
     }
 
     .ulnavbar {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      display: inline;
       overflow: hidden;
       align-content: flex-end;
 
@@ -424,13 +420,13 @@
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: center;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 2px 1px;
     cursor: pointer;
     font-family: campton, sans-serif;
     align-items: center;
+    display: inline-block;
+
   }
 
   #button-style-2 {
@@ -440,10 +436,10 @@
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    display: inline-block;
     font-family: campton, sans-serif;
   }
 
@@ -468,7 +464,7 @@
   hr {
     border-style: solid;
     color: #44344f;
-    border-width: 2px;
+    border-width: 1px;
     background-color: inherit;
   }
 
@@ -536,7 +532,7 @@ justify-content: center;
   object-fit: scale-down;
   display: flex;
   width: 100%;
-  margin: 0 auto;
+  margin: 5px auto;
   flex-wrap: wrap;
   flex-basis: 100%;
   justify-content: center;
@@ -548,7 +544,7 @@ justify-content: center;
   display: block;
   width: 400px;
   height: 300px;
-  margin: 8px;
+  margin: 5px;
   align-items: center;
 
   }
