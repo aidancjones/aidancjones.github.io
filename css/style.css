@@ -1,4 +1,4 @@
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 415px) {
   #home-bkg {
     background-image: url('../img/misty.png');
     background-attachment: fixed;
@@ -86,7 +86,7 @@
     font-family: campton, sans-serif;
     margin: 10px;
     padding: 10px;
-    line-height: 30px;
+    line-height: 10px;
   }
 
   a:link {
@@ -291,11 +291,29 @@
 
 
 
-@media screen and (max-width: 401px) {
+@media screen and (max-width: 414px) {
   #home-bkg {
     background-image: url('../img/misty.png');
     background-attachment: fixed;
     background-size: cover;
+    }
+
+    .ulnavbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline;
+      overflow: hidden;
+      align-content: flex-end;
+
+    }
+
+    .linavbar {
+      display: inline;
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+
     }
 
   h2 {
@@ -491,5 +509,83 @@
 .center {
   text-align: center;
 }
+
+.image-grid {
+display: flex;
+width: 100%;
+margin: 0 auto;
+flex-wrap: wrap;
+flex-basis: 100%;
+justify-content: center;
+}
+
+.grid-image {
+  display: block;
+  width: 400px;
+  margin: 8px;
+  align-items: center;
+}
+
+.center-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.design-grid {
+  object-fit: scale-down;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: center;
+  align-content: center;
+  }
+
+.grid-design {
+  object-fit: contain;
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin: 8px;
+  align-items: center;
+
+  }
+
+  #designh2 {
+    text-align: center;
+    font: 24px;
+    color: #44344f;
+    margin: 20px;
+  }
+
+  .aboutme-container {
+      display: flex;
+      flex-direction: row;
+      font-size: 30px;
+      text-align: center;
+      align-items: center;
+    }
+
+    .aboutme-left {
+      padding: 50px;
+      flex: 0;
+      align-items: flex-end;
+      width: 300px;
+    }
+
+    .aboutme-right {
+      padding: 90px;
+      flex: 100%;
+    }
+
+    .aboutme-image {
+      display: block;
+      width: 400px;
+      margin: 0px;
+      align-items: center;
+      }
+
 
 }
