@@ -16,6 +16,25 @@
     opacity: 90%;
   }
 
+  .abouth2 {
+    text-align: left;
+  }
+
+  #designh2 {
+    text-align: center;
+    font: 36px;
+    color: #44344f;
+    margin: 40px;
+  }
+
+  p {
+    font-family: campton, sans-serif;
+    text-align: center;
+    font-size: 18px;
+
+
+  }
+
   h3 {
   background-color: inherit;
     text-align: left;
@@ -229,8 +248,10 @@
     object-fit: contain;
     display: block;
     width: 400px;
+    height: 400px;
     margin: 20px;
     align-items: center;
+
     }
 
   .aboutme-container {
@@ -238,12 +259,14 @@
       flex-direction: row;
       font-size: 30px;
       text-align: center;
+      align-items: center;
     }
 
     .aboutme-left {
-      padding: 10px;
-      flex: 50%;
+      padding: 50px;
+      flex: 0;
       align-items: flex-end;
+      width: 300px;
     }
 
     .aboutme-right {
@@ -253,7 +276,7 @@
 
     .aboutme-image {
       display: block;
-      width: 250px;
+      width: 300px;
       margin: 0px;
       align-items: center;
       }
