@@ -185,7 +185,6 @@
   .flexbox-container {
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   .flexbox-item {
@@ -288,6 +287,11 @@
       margin: 0px;
       align-items: center;
       }
+
+    #delay {
+      font-size: 14px;
+      transition-property: font-size;
+    }
 
 }
 
