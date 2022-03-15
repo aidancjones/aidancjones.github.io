@@ -16,8 +16,14 @@
     opacity: 90%;
   }
 
+  li {
+    padding-bottom: 15px;
+  }
+
   .abouth2 {
     text-align: left;
+    color: white;
+    width: 800px;
   }
 
   #designh2 {
@@ -31,8 +37,6 @@
     font-family: campton, sans-serif;
     text-align: center;
     font-size: 18px;
-
-
   }
 
   h3 {
@@ -79,6 +83,11 @@
     text-align: left;
     font-family: campton, sans-serif;
     text-decoration: underline;
+  }
+
+  .home-links a {
+    color: black;
+    padding: 10px;
   }
 
   ul {
@@ -213,7 +222,6 @@
 
   .image-grid {
   display: flex;
-  width: 100%;
   margin: 0 auto;
   flex-wrap: wrap;
   flex-basis: 100%;
@@ -285,303 +293,296 @@
 
 
 
-
-
-
-
-
-
 @media screen and (max-width: 414px) {
   #home-bkg {
     background-image: url('../img/misty.png');
     background-attachment: fixed;
     background-size: cover;
-    }
-
-    .ulnavbar {
-      overflow: hidden;
-      align-content: flex-end;
-
-    }
-
-    .linavbar {
-      display: inline;
-      padding: 10px;
-      align-items: center;
-      justify-content: center;
-
-    }
+  }
 
   h2 {
-  background-color: inherit;
+    background-color: inherit;
     text-align: center;
-    font-style: normal;
+    justify-content: center;
     font-size: 36px;
     font-family: campton, sans-serif;
     color: #44344f;
     line-height: 10px;
-    opacity: 80%;
+    opacity: 90%;
   }
 
-  h3 {
-  background-color: inherit;
-    text-align: center;
-    font-style:normal;
-    font-size: 18px;
-    font-family: campton, sans-serif;
-    color: white;
-    line-height: .3;
-  }
-
-  #home-paragraph {
-  background-color: inherit;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    font-family: campton, sans-serif;
-    color: white;
-    font-size: 14px;
-  }
-
-  #home-paragraph-2 {
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    font-family: campton, sans-serif;
-    background-color: inherit;
-    color: white;
-    font-size: 14px;
-  }
-
-  #home-paragraph-link {
-    margin: 10px;
-    padding: 10px;
-    line-height: 15px;
-    text-align: center;
-    font-family: campton, sans-serif;
-    text-decoration: underline;
-    font-size:
-  }
-
-  #home-paragraph-link-2 {
-    margin: 10px;
-    padding: 10px;
-    line-height: 15px;
-    text-align: center;
-    font-family: campton, sans-serif;
-    text-decoration: underline;
-  }
-
-  ul {
-    list-style-type: none;
-    font-family: campton, sans-serif;
-    margin: 10px;
-    padding: 10px;
-    line-height: 40px;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  a:link {
-    text-decoration: none;
-    color: white;
-    background-color: inherit;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  a:visited {
-    text-decoration: none;
-    color:purple;
-    background-color: inherit;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  a:hover {
-    text-decoration: none;
-    color: black;
-    background-color: inherit;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  a:active {
-    text-decoration: none;
-    color: black;
-    background-color: inherit;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  #button-style-1 {
-    background-color: #44344f;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin: 2px 1px;
-    cursor: pointer;
-    font-family: campton, sans-serif;
-    align-items: center;
-    display: inline-block;
-
-  }
-
-  #button-style-2 {
-    background-color: #44344f;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    display: inline-block;
-    font-family: campton, sans-serif;
-  }
-
-  #button-style-3 {
-    background-color: #44344f;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family: campton, sans-serif;
-  }
-
-  td, tr, table {
+  li {
     padding: 5px;
+    align-content: center;
   }
 
-  hr {
-    border-style: solid;
-    color: #44344f;
-    border-width: 1px;
-    background-color: inherit;
-  }
+    .abouth2 {
+      text-align: left;
+      color: white;
+      width: 800px;
+    }
 
-}
-
-.flexbox-container {
-  display: flexend;
-  justify-content: center;
-  align-items: center;
-}
-
-.flexbox-item {
-  width: 150px;
-  margin: 10px;
-  justify-content: center;
-  align-items: center;
-  /*border: 3px solid #44344f;
-  */
-}
-
-.flexbox-item-1 {
-  min-height: 50px;
-  align-items: center;
-}
-
-.flexbox-item-2 {
-  min-height: 50px;
-  align-items: center;
-  justify-content: center;
-}
-
-.flexbox-item-3 {
-  min-height: 50px;
-  align-items: center;
-  justify-content: center;
-}
-
-.center {
-  text-align: center;
-}
-
-.image-grid {
-display: flex;
-width: 100%;
-margin: 0 auto;
-flex-wrap: wrap;
-flex-basis: 100%;
-justify-content: center;
-}
-
-.grid-image {
-  display: block;
-  width: 400px;
-  margin: 8px;
-  align-items: center;
-}
-
-.center-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.design-grid {
-  object-fit: scale-down;
-  display: flex;
-  width: 100%;
-  margin: 5px auto;
-  flex-wrap: wrap;
-  flex-basis: 100%;
-  justify-content: center;
-  align-content: center;
-  }
-
-.grid-design {
-  object-fit: contain;
-  display: block;
-  width: 400px;
-  height: 300px;
-  margin: 5px;
-  align-items: center;
-
-  }
-
-  #designh2 {
-    text-align: center;
-    font: 24px;
-    color: #44344f;
-    margin: 20px;
-  }
-
-  .aboutme-container {
-      display: flex;
-      flex-direction: row;
-      font-size: 30px;
+    #designh2 {
       text-align: center;
+      font: 24px;
+      color: #44344f;
+      margin-bottom: 0px;
+    }
+
+    p {
+      font-family: campton, sans-serif;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    h3 {
+    background-color: inherit;
+      text-align: left;
+      font-style:normal;
+      font-size: 24px;
+      font-family: campton, sans-serif;
+      color: white;
+      line-height: .3;
+    }
+
+    #home-paragraph {
+      background-color: inherit;
+      margin: 10px;
+      padding: 10px;
+      text-align: left;
+      font-family: campton, sans-serif;
+      color: white
+    }
+
+    #home-paragraph-2 {
+      margin: 10px;
+      padding: 10px;
+      text-align: left;
+      font-family: campton, sans-serif;
+      background-color: inherit;
+      color: white
+    }
+
+    #home-paragraph-link {
+      margin: 10px;
+      padding: 10px;
+      line-height: 15px;
+      text-align: left;
+      font-family: campton, sans-serif;
+      text-decoration: underline;
+    }
+
+    #home-paragraph-link-2 {
+      margin: 10px;
+      padding: 10px;
+      line-height: 15px;
+      text-align: left;
+      font-family: campton, sans-serif;
+      text-decoration: underline;
+    }
+
+    .home-links a {
+      color: black;
+      padding: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      font-family: campton, sans-serif;
+      margin: 10px;
+      padding: 10px;
+      line-height: 10px;
+    }
+
+    a:link {
+      text-decoration: none;
+      color: white;
+      background-color: inherit;
+      font-size: 18px;
+    }
+
+    a:visited {
+      text-decoration: none;
+      color: #44344f;
+      background-color: inherit;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: black;
+      background-color: inherit;
+    }
+
+    a:active {
+      text-decoration: none;
+      color: #44344f;
+      background-color: inherit;
+    }
+
+    #button-style-1 {
+      background-color: #44344f;
+      opacity: 90%;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-family: campton, sans-serif;
+      justify-content: center;
       align-items: center;
     }
 
-    .aboutme-left {
-      padding: 50px;
-      flex: 0;
-      align-items: flex-end;
-      width: 300px;
+    #button-style-2 {
+      background-color: #44344f;
+      opacity: 90%;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-family: campton, sans-serif;
     }
 
-    .aboutme-right {
-      padding: 90px;
-      flex: 100%;
+    #button-style-3 {
+      background-color: #44344f;
+      opacity: 90%;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-family: campton, sans-serif;
     }
 
-    .aboutme-image {
+    td, tr, table {
+      padding: 5px;
+    }
+
+    hr {
+      border-style: solid;
+      color: #44344f;
+      border-width: 1px;
+      background-color: inherit;
+      opacity: 90%;
+    }
+
+    .flexbox-container {
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .flexbox-item {
+      width: 150px;
+      margin: 10px;
+      /*border: 3px solid #44344f;
+      */
+    }
+
+    .flexbox-item-1 {
+      min-height: 50px;
+    }
+
+    .flexbox-item-2 {
+      min-height: 50px;
+    }
+
+    .flexbox-item-3 {
+      min-height: 50px;
+    }
+
+    .ulnavbar {
+      overflow: auto;
+      align-items: center;
+      align-content: center;
+    }
+
+    .linavbar {
+      display: flex;
+      padding: 10px;
+      align-content: center;
+      align-items: center;
+    }
+
+    .image-grid {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-basis: 90%;
+    justify-content: center;
+  }
+
+    .grid-image {
       display: block;
-      width: 400px;
+      width: 350px;
       margin: 0px;
+      padding: 0px;
       align-items: center;
+    }
+
+    .center-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .design-grid {
+      object-fit: scale-down;
+      display: flex;
+      width: 100%;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      justify-content: center;
+      align-content: center;
       }
 
+    .grid-design {
+      object-fit: contain;
+      display: block;
+      width: 200px;
+      height: 200px;
+      margin: 5px;
+      align-items: center;
 
-}
+      }
+
+    .aboutme-container {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+      }
+
+      .aboutme-left {
+        padding: 0px;
+        flex: 0;
+        width: 200px;
+      }
+
+      .aboutme-right {
+        padding: 10px;
+        flex: 50%;
+        align-content: center;
+      }
+
+      .aboutme-image {
+        width: 200px;
+        margin: 0px;
+        align-items: center;
+        }
+
+  }
