@@ -288,6 +288,15 @@
       align-items: center;
       }
 
+    #java-button-1 {
+      transition: color 2s ease-in-out;
+      font-size: 60px;
+    }
+
+    .is-red {
+      color: blue;
+    }
+
 
     }
 
