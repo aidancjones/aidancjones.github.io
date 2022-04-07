@@ -12,19 +12,20 @@ async function getQuote() {
     }
     const json = await response.json();
     console.log(json);
-    displayQuote(json.fact);
+    displayQuote(json[0].quote);
   } catch(err) {
     console.log(err)
     alert('Failed');
   }
 }
 
+
 function displayQuote(quote) {
   const quoteText = document.querySelector('#js-quote-text');
   quoteText.textContent = quote;
 }
 
-const  endpoint = 'https://catfact.ninja/fact';
+const endpoint = 'https://breaking-bad-quotes.herokuapp.com/v1/quotes';
 
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
