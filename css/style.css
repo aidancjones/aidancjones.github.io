@@ -1,3 +1,5 @@
+
+
 @media screen and (min-width: 415px) {
   #home-bkg {
     background-image: url('../img/misty.png');
@@ -5,25 +7,38 @@
     background-size: cover;
     }
 
-  h2 {
+  @font-face {
+    src: url(../fonts/CamptonBold.otf);
+    font-family: CamptonBold;
+  }
+
+  @font-face {
+    src: url(../fonts/CamptonMedium.otf);
+    font-family: CamptonMedium;
+  }
+
+  h1 {
   background-color: inherit;
     text-align: left;
     font-style:normal;
     font-size: 48px;
-  font-family: 'Work Sans', sans-serif;
     color: #44344f;
     line-height: 10px;
     opacity: 90%;
+    font-family: CamptonBold;
   }
 
   li {
     padding-bottom: 15px;
+
   }
 
   .abouth2 {
     text-align: left;
     color: white;
     width: 800px;
+    font-family: CamptonBold;
+
   }
 
   #designh2 {
@@ -31,6 +46,7 @@
     font: 36px;
     color: #44344f;
     margin: 40px;
+    font-family: CamptonBold;
   }
 
   p {
@@ -217,6 +233,7 @@
   .linavbar {
     display: inline;
     padding: 20px;
+    font-family: CamptonMedium;
   }
 
   .image-grid {
