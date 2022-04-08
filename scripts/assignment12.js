@@ -26,14 +26,12 @@ function displayQuote(quote) {
 }
 
 async function getAuthor() {
-  console.log("quote button was clicked");
   try {
     const response = await fetch(endpoint);
     if (!response.ok) {
       throw Error(resoonse.statusText)
     }
     const json = await response.json();
-    console.log(json);
   } catch(err) {
     console.log(err)
     alert('Failed');
