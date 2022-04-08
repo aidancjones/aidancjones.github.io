@@ -49,6 +49,17 @@ header {
   color: black;
 }
 
+.author {
+  padding: 20px 50px;
+  min-height: 200px;
+}
+
+.author-text {
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: black;
+}
+
 .controls {
   width: 100%;
   padding: 20px 50px;
