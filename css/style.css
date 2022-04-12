@@ -17,6 +17,15 @@
     font-family: CamptonMedium;
   }
 
+  #welcome-text {
+    font-size: 100px;
+    color: white;
+    font-family: CamptonBold;
+    opacity: 50%;
+    padding-top: 75px;
+
+  }
+
   h1 {
   background-color: inherit;
     text-align: left;
@@ -201,6 +210,7 @@
   .flexbox-container {
     display: flex;
     justify-content: center;
+
   }
 
   .flexbox-item {
@@ -228,12 +238,24 @@
     padding: 0;
     display: inline;
     overflow: hidden;
+
   }
+
+  .ulnavbar-center {
+    display: inline-block;
+    text-align: center;
+    }
 
   .linavbar {
     display: inline;
     padding: 20px;
-    font-family: CamptonMedium;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .linavbar a {
+    font-family: CamptonBold;
+    font-size: 30px;
   }
 
   .image-grid {
@@ -292,9 +314,12 @@
       width: 300px;
     }
 
-    .aboutme-right {
+  .aboutme-right {
       padding: 10px;
       flex: 50%;
+      display: inline-block;
+      max-width: 700px;
+      justify-content: center;
     }
 
     .aboutme-image {
@@ -311,6 +336,11 @@
 
     .is-red {
       color: blue;
+    }
+
+    .aboutp {
+      justify-content: flex-start;
+
     }
 
 
