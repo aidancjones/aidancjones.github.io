@@ -14,12 +14,19 @@ function random(number) {
 
 function draw() {
   ctx.clearRect(0,0,WIDTH,HEIGHT);
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 50; i++) {
     ctx.beginPath();
-    ctx.fillStyle = 'rgba(255,0,0,0.5)';
+    ctx.fillStyle = 'rgba(255,0,0,0.9)';
     ctx.arc(random(WIDTH), random(HEIGHT), random(50), 0, 2 * Math.PI);
     ctx.fill();
   }
 }
 
 btn.addEventListener('click',draw);
+
+
+
+const cats = ['Leopard', 'Serval', 'Jaguar', 'Tiger'];
+for (const cat of cats) {
+  console.log(cat);
+};
