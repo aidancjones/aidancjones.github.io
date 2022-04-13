@@ -18,29 +18,27 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
-    string.replace(Bob, customname)
-
-
+    string.replace('Bob', customname)
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
-
+    const weight = Math.round(300*0.071428571428571)+' stone';
+    const temperature =  Math.round((94-32)*(5/9))+' centigrade';
+    string.replace('94 fahrenheit', temperature);
+    string.replace('300 pounds', weight);
   }
 
-  story.textContent = ();
+
+  story.textContent = newStory;
   story.style.visibility = 'visible';
+
 }
-
-
-
 
 const newStory = storyText;
 const xItem = randomValueFromArray(insertX);
 const yItem = randomValueFromArray(insertY);
 const zItem = randomValueFromArray(insertZ);
 
-xItem = newStory
-yItem = newStory
-zItem = newStory
+newStory = xItem
+newStory = yItem
+newStory = zItem
