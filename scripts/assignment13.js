@@ -18,6 +18,8 @@ function result() {
 
   if(customName.value !== '') {
     const name = customName.value;
+    string.replace(Bob, customname)
+
 
   }
 
@@ -27,6 +29,18 @@ function result() {
 
   }
 
-  story.textContent = ;
+  story.textContent = ();
   story.style.visibility = 'visible';
 }
+
+
+
+
+const newStory = storyText;
+const xItem = randomValueFromArray(insertX);
+const yItem = randomValueFromArray(insertY);
+const zItem = randomValueFromArray(insertZ);
+
+xItem = newStory
+yItem = newStory
+zItem = newStory
