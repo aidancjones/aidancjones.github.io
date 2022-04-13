@@ -74,22 +74,14 @@
     line-height: .3;
   }
 
-  #home-paragraph {
+  .web-text {
     background-color: inherit;
-    margin: 10px;
-    padding: 10px;
+    padding-left: 20px;
     text-align: left;
-    font-family: campton, sans-serif;
-    color: white
-  }
+    font-family: CamptonMedium;
+    color: white;
+    font-size: 20px;
 
-  #home-paragraph-2 {
-    margin: 10px;
-    padding: 10px;
-    text-align: left;
-    font-family: campton, sans-serif;
-    background-color: inherit;
-    color: white
   }
 
   #home-paragraph-link {
@@ -97,8 +89,9 @@
     padding: 10px;
     line-height: 15px;
     text-align: left;
-    font-family: campton, sans-serif;
+    font-family: CamptonBold;
     text-decoration: underline;
+    font-size:
   }
 
   #home-paragraph-link-2 {
@@ -106,13 +99,11 @@
     padding: 10px;
     line-height: 15px;
     text-align: left;
-    font-family: campton, sans-serif;
+    font-family: CamptonBold;
     text-decoration: underline;
   }
 
-  .home-links a {
-    color: black;
-    padding: 10px;
+
   }
 
   ul {
@@ -127,25 +118,29 @@
     text-decoration: none;
     color: white;
     background-color: inherit;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: CamptonMedium;
   }
 
   a:visited {
     text-decoration: none;
     color: #44344f;
     background-color: inherit;
+    font-family: CamptonMedium;
   }
 
   a:hover {
     text-decoration: none;
     color: black;
     background-color: inherit;
+    font-family: CamptonMedium;
   }
 
   a:active {
     text-decoration: none;
     color: #44344f;
     background-color: inherit;
+    font-family: CamptonMedium;
   }
 
   #button-style-1 {
