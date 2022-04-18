@@ -241,13 +241,19 @@
     flex-wrap: wrap;
     flex-basis: 100%;
     justify-content: center;
+    object-fit: contain;
+
+
   }
 
   .grid-image {
     display: block;
-    width: 500px;
-    margin: 15px;
+    max-width: 500px;
+    max-height: 500px;
     align-items: center;
+    object-fit: cover;
+    padding: 20px;
+
   }
 
   .center-grid {
