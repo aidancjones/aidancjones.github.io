@@ -311,10 +311,6 @@
     color: blue;
   }
 
-  .aboutp {
-    justify-content: flex-start;
-  }
-
   .about-conainer {
     display: flex;
     flex-direction: row;
@@ -332,6 +328,7 @@
     max-width: 700px;
     color: white;
     text-align: justify;
+    justify-content: center;
   }
 
 
@@ -342,6 +339,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    justify-content: center;
   }
 
     #myImg:hover {opacity: 0.7;}
@@ -419,11 +417,18 @@
       cursor: pointer;
     }
 
+    .web-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
 
 
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 414px)  {
   #home-bkg {
     background-image: url('../img/misty.png');
     background-attachment: fixed;
@@ -431,9 +436,7 @@
   }
 
   h1 {
-    background-color: inherit;
     text-align: left;
-    font-style: normal;
     font-size: 36px;
     color: #44344f;
     line-height: 10px;
@@ -740,21 +743,16 @@
     align-items: center;
   }
 
-  .aboutme-left {
-    padding: 0px;
-    flex: 0;
-    width: 200px;
-  }
-
   .aboutme-right {
     padding: 10px;
     flex: 50%;
-    align-content: center;
+    justify-content: center;
   }
 
   .aboutme-image {
     width: 200px;
-    margin: 0px;
+    margin-left: 500px;
     padding-left: 900px;
+    justify-content: center;
   }
 }
