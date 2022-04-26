@@ -15,7 +15,7 @@
     font-family: CamptonMedium;
   }
 
-  #welcome-text {
+  .welcome-text {
     font-size: 100px;
     color: white;
     font-family: CamptonBold;
@@ -174,6 +174,10 @@
     font-family: campton, sans-serif;
   }
 
+  .about-p {
+    font-family: CamptonMedium;
+  }
+
   td, tr, table {
     padding: 5px;
   }
@@ -313,27 +317,23 @@
 
   .about-conainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+
   }
 
   .abouth2 {
-    margin-left: 485px;
-    margin-right: auto;
     color: white;
-    text-align: justify;
-    align-content: center;
     font-family: CamptonBold;
   }
 
   .aboutp {
     max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
     color: white;
     text-align: justify;
   }
+
 
 
   /* MODAL */
@@ -345,7 +345,7 @@
   }
 
     #myImg:hover {opacity: 0.7;}
-    
+
 
     /* The Modal (background) */
     .modal {
@@ -430,6 +430,34 @@
     background-size: cover;
   }
 
+  h1 {
+    background-color: inherit;
+    text-align: left;
+    font-style: normal;
+    font-size: 36px;
+    color: #44344f;
+    line-height: 10px;
+    opacity: 90%;
+    font-family: CamptonBold;
+  }
+
+  .web-text {
+    background-color: inherit;
+    padding-left: 20px;
+    text-align: left;
+    font-family: CamptonMedium;
+    color: white;
+    font-size: 20px;
+  }
+
+  .welcome-text {
+    font-size: 50px;
+    color: white;
+    font-family: CamptonBold;
+    opacity: 50%;
+    padding-top: 75px;
+  }
+
   h2 {
     background-color: inherit;
     text-align: center;
@@ -454,7 +482,6 @@
   }
 
   p {
-    font-family: campton, sans-serif;
     text-align: center;
     font-size: 18px;
   }
@@ -464,9 +491,32 @@
     text-align: left;
     font-style: normal;
     font-size: 24px;
-    font-family: campton, sans-serif;
     color: white;
     line-height: .3;
+  }
+
+  .ulnavbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    overflow: hidden;
+  }
+
+  .ulnavbar-center {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .linavbar {
+    display: inline;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .linavbar a {
+    font-size: 30px;
   }
 
   #home-paragraph {
@@ -705,6 +755,6 @@
   .aboutme-image {
     width: 200px;
     margin: 0px;
-    align-items: center;
+    padding-left: 900px;
   }
 }
