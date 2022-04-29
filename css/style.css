@@ -341,20 +341,14 @@
     .modal-content2 {
       display: flex;
       justify-content: center;
-      max-width: 500px;
-      max-height: 500px;
       object-fit: cover;
-      padding: 30px;
     }
 
     #img02 {
-
-      max-width: 600px;
-      max-height: 600px;
+      width: 54%;
       object-fit: cover;
       padding: 20px;
       margin: 0 auto;
-
     }
 
     .data-modal {
@@ -402,7 +396,7 @@
   .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: 70%;
     max-width: 700px;
   }
 
