@@ -263,16 +263,20 @@
   .aboutme-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
     text-align: center;
     align-items: center;
+    margin: 0 auto;
   }
 
   .aboutme-image {
     display: block;
-    width: 300px;
-    margin: 0px;
+    width: 200px;
+    margin: 0 auto;
     align-items: center;
+    justify-content: center;
+    padding-top: 20px;
   }
 
   #java-button-1 {
@@ -284,23 +288,26 @@
     color: blue;
   }
 
-  .about-conainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
   .abouth2 {
-    color: white;
+    display: flex;
+    color: black;
     font-family: CamptonBold;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 30px;
   }
 
   .aboutp {
-    max-width: 700px;
-    color: white;
+    display: flex;
+    max-width: 570px;
+    color: black;
     text-align: justify;
     justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: CamptonMedium;
   }
 
   .center-grid {
@@ -468,6 +475,26 @@
     background-size: cover;
   }
 
+  @font-face {
+    src: url(../fonts/CamptonBold.otf);
+    font-family: CamptonBold;
+  }
+
+  @font-face {
+    src: url(../fonts/CamptonMedium.otf);
+    font-family: CamptonMedium;
+  }
+
+  h3 {
+    background-color: inherit;
+    text-align: left;
+    font-style: normal;
+    font-size: 24px;
+    font-family: CamptonBold;
+    color: white;
+    line-height: .3;
+  }
+
   h1 {
     text-align: left;
     font-size: 36px;
@@ -522,7 +549,7 @@
     font-size: 18px;
   }
 
-  h3 {
+   {
     background-color: inherit;
     text-align: left;
     font-style: normal;
@@ -549,6 +576,9 @@
     padding: 20px;
     display: inline-block;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: CamptonBold;
   }
 
   .linavbar a {
@@ -598,7 +628,7 @@
 
   ul {
     list-style-type: none;
-    font-family: campton, sans-serif;
+    font-family: CamptonMedium;
     margin: 10px;
     padding: 10px;
     line-height: 10px;
@@ -637,11 +667,11 @@
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: campton, sans-serif;
+    font-family: CamptonMedium;
     justify-content: center;
     align-items: center;
   }
@@ -658,7 +688,7 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: campton, sans-serif;
+    font-family: CamptonMedium;
   }
 
   #button-style-3 {
@@ -673,7 +703,7 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    font-family: campton, sans-serif;
+    font-family: CamptonMedium;
   }
 
   td, tr, table {
@@ -783,9 +813,31 @@
   }
 
   .aboutme-image {
+    display: flex;
     width: 200px;
-    margin-left: 500px;
-    padding-left: 900px;
+    margin: 0 auto;
     justify-content: center;
+    margin-top: 20px;
+  }
+
+  .abouth2 {
+    display: flex;
+    color: black;
+    font-family: CamptonBold;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .aboutp {
+    display: flex;
+    max-width: 570px;
+    color: black;
+    text-align: justify;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: CamptonMedium;
   }
 }
