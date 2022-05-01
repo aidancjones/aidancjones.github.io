@@ -17,9 +17,8 @@
 
   .welcome-text {
     font-size: 100px;
-    color: white;
+    color: #44344f;
     font-family: CamptonBold;
-    opacity: 50%;
     padding-top: 75px;
   }
 
@@ -300,7 +299,7 @@
 
   .aboutp {
     display: flex;
-    max-width: 570px;
+    max-width: 580px;
     color: black;
     text-align: justify;
     justify-content: center;
@@ -308,6 +307,7 @@
     padding-top: 20px;
     padding-bottom: 50px;
     font-family: CamptonMedium;
+    text-shadow: 2px 2px 50px white;
   }
 
   .center-grid {
@@ -352,7 +352,7 @@
     }
 
     #img02 {
-      width: 54%;
+      width: 700px;
       object-fit: cover;
       padding: 20px;
       margin: 0 auto;
@@ -831,7 +831,7 @@
 
   .aboutp {
     display: flex;
-    max-width: 570px;
+    max-width: 350px;
     color: black;
     text-align: justify;
     justify-content: center;
@@ -839,5 +839,7 @@
     padding-top: 20px;
     padding-bottom: 50px;
     font-family: CamptonMedium;
+    font-size: 18px;
+    text-shadow: 2px 2px 50px white;
   }
 }
